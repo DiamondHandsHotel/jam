@@ -13,7 +13,7 @@ const app = express();
 app.use(express.static(process.env.JAM_CONFIG_DIR + '/public'));
 app.use(express.static(process.env.STATIC_FILES_DIR || 'public'));
 
-const jamHost = process.env.JAM_HOST || 'beta.jam.systems';
+const jamHost = process.env.JAM_HOST || 'talk.diamondhandshotel.com';
 const jamSchema = process.env.JAM_SCHEMA || 'https://';
 
 const urls = {
